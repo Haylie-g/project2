@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // Prevent the form from submitting the traditional way
 
         // Get the values from the input fields
-        const recipeName = document.getElementById('recipe-name').value;
+        const recipeName = document.getElementById('recipe-name').value || 'Delicious Recipe';
         const ingredients = document.getElementById('ingredients').value;
         const directions = document.getElementById('directions').value;
 
