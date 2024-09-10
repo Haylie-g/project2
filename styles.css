@@ -1,0 +1,83 @@
+/* Basic reset to remove default margins and padding */
+body, h1, h2, h3, p, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a basic font and line height for better readability */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the main section */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form and fieldsets */
+form {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+/* Style the textareas */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Style the recipe output */
+#recipe-output {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+#recipe-output h3 {
+    margin-top: 0;
+}
